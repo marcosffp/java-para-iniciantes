@@ -5,4 +5,8 @@ public class Vehicle {
   public int capacCombustivelGaloes;
   public int consumoCombustivel;
 
+  public int range() {
+    return capacCombustivelGaloes * consumoCombustivel;
+  }
+
 }
