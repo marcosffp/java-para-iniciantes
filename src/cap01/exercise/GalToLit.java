@@ -1,4 +1,4 @@
-package exercise;
+package cap01.exercise;
 
 public class GalToLit {
   public static void main(String[] args) {

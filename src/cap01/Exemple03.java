@@ -1,3 +1,5 @@
+package cap01;
+
 public class Exemple03 {
   public static void main(String[] args) {
     

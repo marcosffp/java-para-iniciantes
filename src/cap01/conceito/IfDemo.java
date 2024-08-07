@@ -1,4 +1,4 @@
-package conceito;
+package cap01.conceito;
 
 public class IfDemo {
   public static void main(String[] args) {

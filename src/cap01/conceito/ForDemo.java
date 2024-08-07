@@ -1,4 +1,4 @@
-package conceito;
+package cap01.conceito;
 
 public class ForDemo {
   public static void main(String[] args) {
