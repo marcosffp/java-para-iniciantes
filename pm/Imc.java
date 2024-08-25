@@ -1,8 +1,16 @@
+
+
 public class Imc {
   private double peso;
   private double altura;
 
-  public Imc() {}
+  public Imc() {
+  }
+  
+  public Imc(double peso, double altura) {
+    this.peso = peso;
+    this.altura=altura;
+  }
 
   public void setPeso(double peso) {
     if (peso <= 0) {
@@ -13,7 +21,7 @@ public class Imc {
   }
 
   public double getPeso() {
-    return this.peso;
+    return peso;
   }
 
   public void setAltura(double altura) {
@@ -25,11 +33,10 @@ public class Imc {
   }
 
   public double getAltura() {
-    return this.altura;
+    return altura;
   }
 
   public double getImc() {
-    double imc = peso / (altura * altura);
-    return imc;
+    return peso / (altura * altura);
   }
 }
